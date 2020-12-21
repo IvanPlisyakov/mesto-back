@@ -3,5 +3,10 @@ module.exports = {
   output: {
     filename: './bundle.js',
     library: 'myApp'
+  },
+  resolve: {
+    fallback: {
+      fs: false
+    }
   }
 };

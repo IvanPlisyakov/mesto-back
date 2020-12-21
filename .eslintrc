@@ -1,6 +1,13 @@
 {
   "extends": "airbnb-base",
   "rules": {
-    "no-underscore-dangle": "off"
+    "no-underscore-dangle": "off",
+    "javascript.validate.enable": false,
+    "javascript.suggestionActions.enabled": false
+  },
+  "env": {
+    "amd": true
   }
+
+
 }

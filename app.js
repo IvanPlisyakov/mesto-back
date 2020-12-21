@@ -1,3 +1,5 @@
+/*eslint no-const-assign: "error"*/
+/*eslint-env es6*/
 const express = require('express');
 const mongoose = require('mongoose');
 const routerCards = require('./routes/cards.js');
